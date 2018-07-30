@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
-class home extends Component {
+import Library from './library/library';
+import Schedule from './schedule/schedule';
+
+
+class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1>Course Schedule</h1>
+        <Library/>
+        <Schedule/>
       </div>
     );
   }
 }
 
-export default home;
+export default Home;
